@@ -1,0 +1,7 @@
+/*---------------------------------
+Deklaracja funkcji usuwajacej wezly
+Autor: Jacek Mucha
+Data stworzenia pliku: 29 kwietnia 2012
+-------------------------------------*/
+
+Hestia delW(char *NazwaWe, Lista1 ptr, Lista2 ptrL);

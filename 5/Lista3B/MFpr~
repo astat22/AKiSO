@@ -1,0 +1,10 @@
+CC=gcc
+CDYN= -fPIC -c
+FLAGS -c -Wall -pedantic 
+
+all: main.o DaddL.o DaddW.o DconsW.o DdaInt.o DdelL.o DdelW.o DeqStr.o DinvL.o DinvW.o DpurLiW.o Dqualitas.o DviaWW.o DvidL.o DvidW.o DvotW.o STRUCT.o
+	gcc main.o DaddL.o DaddW.o DconsW.o DdaInt.o DdelL.o DdelW.o DeqStr.o DinvL.o DinvW.o DpurLiW.o Dqualitas.o DviaWW.o DvidL.o DvidW.o DvotW.o STRUCT.o -o
+
+static: main.o libmoja.a
+	gcc -o GRAF2 
+#make static make shared

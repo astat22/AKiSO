@@ -1,0 +1,7 @@
+/*---------------------------------
+Deklaracja funkcji sprawdzajacej, czy nazwa luku sie nie powtarza
+Autor: Jacek Mucha
+Data stworzenia pliku: 29 kwietnia 2012
+-------------------------------------*/
+
+int invL(Lista2 ptr, char *Nom);
