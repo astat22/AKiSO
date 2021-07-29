@@ -1,0 +1,5 @@
+mkfifo p1
+echo 22+7>p1
+
+na drugim terminalu:
+bc < p1

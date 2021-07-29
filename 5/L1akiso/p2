@@ -1,0 +1,179 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1  34028  4440 ?        Ss   11:41   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    11:41   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    11:41   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   11:41   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    11:41   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    11:41   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    11:41   0:00 [rcuos/0]
+root        10  0.0  0.0      0     0 ?        S    11:41   0:00 [rcuob/0]
+root        11  0.0  0.0      0     0 ?        S    11:41   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    11:41   0:00 [watchdog/0]
+root        13  0.0  0.0      0     0 ?        S    11:41   0:00 [watchdog/1]
+root        14  0.0  0.0      0     0 ?        S    11:41   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    11:41   0:00 [ksoftirqd/1]
+root        16  0.0  0.0      0     0 ?        S    11:41   0:00 [kworker/1:0]
+root        17  0.0  0.0      0     0 ?        S<   11:41   0:00 [kworker/1:0H]
+root        18  0.0  0.0      0     0 ?        R    11:41   0:00 [rcuos/1]
+root        19  0.0  0.0      0     0 ?        S    11:41   0:00 [rcuob/1]
+root        20  0.0  0.0      0     0 ?        S<   11:41   0:00 [khelper]
+root        21  0.0  0.0      0     0 ?        S    11:41   0:00 [kdevtmpfs]
+root        22  0.0  0.0      0     0 ?        S<   11:41   0:00 [netns]
+root        23  0.0  0.0      0     0 ?        S<   11:41   0:00 [perf]
+root        24  0.0  0.0      0     0 ?        S    11:41   0:00 [khungtaskd]
+root        25  0.0  0.0      0     0 ?        S<   11:41   0:00 [writeback]
+root        26  0.0  0.0      0     0 ?        SN   11:41   0:00 [ksmd]
+root        27  0.0  0.0      0     0 ?        SN   11:41   0:00 [khugepaged]
+root        28  0.0  0.0      0     0 ?        S<   11:41   0:00 [crypto]
+root        29  0.0  0.0      0     0 ?        S<   11:41   0:00 [kintegrityd]
+root        30  0.0  0.0      0     0 ?        S<   11:41   0:00 [bioset]
+root        31  0.0  0.0      0     0 ?        S<   11:41   0:00 [kblockd]
+root        32  0.0  0.0      0     0 ?        S<   11:41   0:00 [ata_sff]
+root        33  0.0  0.0      0     0 ?        S<   11:41   0:00 [md]
+root        34  0.0  0.0      0     0 ?        S<   11:41   0:00 [devfreq_wq]
+root        36  0.0  0.0      0     0 ?        S    11:41   0:00 [kworker/0:1]
+root        37  0.0  0.0      0     0 ?        S    11:41   0:00 [kworker/1:1]
+root        39  0.0  0.0      0     0 ?        S    11:41   0:00 [kswapd0]
+root        40  0.0  0.0      0     0 ?        S    11:41   0:00 [fsnotify_mark]
+root        41  0.0  0.0      0     0 ?        S    11:41   0:00 [ecryptfs-kthrea]
+root        53  0.0  0.0      0     0 ?        S<   11:41   0:00 [kthrotld]
+root        54  0.0  0.0      0     0 ?        S<   11:41   0:00 [acpi_thermal_pm]
+root        55  0.0  0.0      0     0 ?        S    11:41   0:00 [scsi_eh_0]
+root        56  0.0  0.0      0     0 ?        S<   11:41   0:00 [scsi_tmf_0]
+root        57  0.0  0.0      0     0 ?        S    11:41   0:00 [scsi_eh_1]
+root        58  0.0  0.0      0     0 ?        S<   11:41   0:00 [scsi_tmf_1]
+root        63  0.0  0.0      0     0 ?        S<   11:41   0:00 [ipv6_addrconf]
+root        83  0.0  0.0      0     0 ?        S<   11:41   0:00 [deferwq]
+root        84  0.0  0.0      0     0 ?        S<   11:41   0:00 [charger_manager]
+root       132  0.0  0.0      0     0 ?        S<   11:41   0:00 [kpsmoused]
+root       133  0.0  0.0      0     0 ?        S    11:41   0:05 [kworker/0:2]
+root       135  0.0  0.0      0     0 ?        S    11:41   0:00 [scsi_eh_2]
+root       136  0.0  0.0      0     0 ?        S<   11:41   0:00 [scsi_tmf_2]
+root       145  0.0  0.0      0     0 ?        S    11:41   0:00 [jbd2/sda1-8]
+root       146  0.0  0.0      0     0 ?        S<   11:41   0:00 [ext4-rsv-conver]
+root       267  0.0  0.0  19480   180 ?        S    11:42   0:00 upstart-udev-bridge --daemon
+root       275  0.0  0.0  51936  3840 ?        Ss   11:42   0:00 /lib/systemd/systemd-udevd --daemon
+root       319  0.0  0.0      0     0 ?        S<   11:42   0:00 [kworker/0:1H]
+root       321  0.0  0.0      0     0 ?        S<   11:42   0:00 [kworker/1:1H]
+root       371  0.0  0.0      0     0 ?        S<   11:42   0:00 [iprt-VBoxWQueue]
+root       399  0.0  0.0  15264   204 ?        S    11:42   0:00 upstart-socket-bridge --daemon
+root       555  0.0  0.0  15280   224 ?        S    11:42   0:00 upstart-file-bridge --daemon
+syslog     560  0.0  0.0 255848  3268 ?        Ssl  11:42   0:00 rsyslogd
+message+   606  0.0  0.0  40128  3684 ?        Ss   11:42   0:01 dbus-daemon --system --fork
+root       630  0.0  0.1 330240  7380 ?        Ssl  11:42   0:00 /usr/sbin/ModemManager
+root       668  0.0  0.0  43456  3348 ?        Ss   11:42   0:00 /lib/systemd/systemd-logind
+root       676  0.0  0.0  19300  2580 ?        Ss   11:42   0:00 /usr/sbin/bluetoothd
+root       683  0.0  0.0      0     0 ?        S<   11:42   0:00 [krfcommd]
+avahi      687  0.0  0.0  32352  3044 ?        S    11:42   0:00 avahi-daemon: running [astat.local]
+avahi      692  0.0  0.0  32228   252 ?        S    11:42   0:00 avahi-daemon: chroot helper
+root       764  0.0  0.0   4448   764 ?        Ss   11:42   0:00 /bin/sh -e /proc/self/fd/9
+root       780  0.0  0.0  15852  2664 ?        S    11:42   0:00 initctl emit plymouth-ready
+root       782  0.0  0.0  21240  2128 tty4     Ss+  11:42   0:00 /sbin/getty -8 38400 tty4
+root       786  0.0  0.0  21240  2072 tty5     Ss+  11:42   0:00 /sbin/getty -8 38400 tty5
+root       793  0.0  0.0  21240  2052 tty2     Ss+  11:42   0:00 /sbin/getty -8 38400 tty2
+root       799  0.0  0.0  21240  2088 tty3     Ss+  11:42   0:00 /sbin/getty -8 38400 tty3
+root       802  0.0  0.0  21240  2104 tty6     Ss+  11:42   0:00 /sbin/getty -8 38400 tty6
+root       854  0.0  0.1  75360  5992 ?        Ss   11:42   0:00 /usr/sbin/cups-browsed
+root       880  0.0  0.0   4372  1596 ?        Ss   11:42   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root       895  0.0  0.0  19196  2228 ?        Ss   11:42   0:00 /usr/sbin/irqbalance
+root       897  0.0  0.0  23660  2256 ?        Ss   11:42   0:00 cron
+kernoops   905  0.0  0.0  37148  2536 ?        Ss   11:42   0:00 /usr/sbin/kerneloops
+root       921  0.0  0.2 358124 11440 ?        Ssl  11:42   0:00 NetworkManager
+root       929  0.0  0.2 295876  8804 ?        Sl   11:42   0:00 /usr/lib/policykit-1/polkitd --no-debug
+whoopsie   955  0.0  0.2 437128 11960 ?        Ssl  11:42   0:00 whoopsie
+nobody     981  0.0  0.0  36448  3212 ?        S    11:42   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root      1025  0.0  0.0 241248  2424 ?        Sl   11:42   0:04 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.pid
+root      1177  0.0  0.0  21240  2144 tty1     Ss+  11:42   0:00 /sbin/getty -8 38400 tty1
+root      1193  0.0  0.1 292632  7152 ?        Ssl  11:42   0:00 lightdm
+root      1202  0.0  0.2 302240 10012 ?        Sl   11:42   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1215  1.5  2.9 420736 119356 tty7    Ssl+ 11:42   5:42 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1226  0.0  0.1 168312  6372 ?        Sl   11:42   0:00 lightdm --session-child 12 15
+root      1230  0.0  0.0      0     0 ?        S    11:42   0:00 [kauditd]
+astat     1234  0.0  0.1  41604  4316 ?        Ss   11:42   0:00 init --user
+astat     1317  0.0  0.0  24444  1944 ?        S    11:42   0:00 dbus-launch --autolaunch=1af653618a572ced897859435617d8df --binary-syntax --close-stderr
+astat     1318  0.0  0.0  39120   324 ?        Ss   11:42   0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+astat     1321  0.0  0.0  50568   292 ?        S    11:42   0:00 /usr/bin/VBoxClient --clipboard
+astat     1323  0.0  0.1 118824  4196 ?        Sl   11:42   0:00 /usr/bin/VBoxClient --clipboard
+astat     1331  0.0  0.0  50568   296 ?        S    11:42   0:00 /usr/bin/VBoxClient --display
+astat     1333  0.0  0.0 116768  3152 ?        Sl   11:42   0:00 /usr/bin/VBoxClient --display
+astat     1337  0.0  0.0  50568   296 ?        S    11:42   0:00 /usr/bin/VBoxClient --seamless
+astat     1338  0.0  0.0 116768  2984 ?        Sl   11:42   0:00 /usr/bin/VBoxClient --seamless
+astat     1344  0.0  0.0  50568   292 ?        S    11:42   0:00 /usr/bin/VBoxClient --draganddrop
+astat     1345  0.1  0.0 117284  3008 ?        Sl   11:42   0:34 /usr/bin/VBoxClient --draganddrop
+astat     1364  0.0  0.0  40260  3580 ?        Ss   11:42   0:01 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-3uA6KpshQK
+astat     1376  0.0  0.0  23560  2264 ?        Ss   11:42   0:00 upstart-event-bridge
+astat     1384  0.0  0.2  79548  8844 ?        Ss   11:42   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+astat     1392  0.0  0.2 324300  9144 ?        SLl  11:42   0:00 gnome-keyring-daemon --start --components pkcs11,secrets
+astat     1401  0.0  0.0  23644  1992 ?        S    11:42   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+astat     1402  0.0  0.0  32192  2184 ?        S    11:42   0:00 upstart-file-bridge --daemon --user
+astat     1405  0.0  0.0  23568   204 ?        S    11:42   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+astat     1414  0.0  0.2 378512  9212 ?        Ssl  11:42   0:12 /usr/bin/ibus-daemon --daemonize --xim
+astat     1429  0.0  0.7 825000 30616 ?        Ssl  11:42   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+astat     1434  0.0  0.9 652544 39284 ?        Ssl  11:42   0:01 /usr/lib/x86_64-linux-gnu/hud/hud-service
+astat     1437  0.0  0.2 367688  9880 ?        Ssl  11:42   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+astat     1439  0.0  0.5 743600 21676 ?        Ssl  11:42   0:00 gnome-session --session=ubuntu
+astat     1443  0.0  0.0  39384  3496 ?        S    11:42   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+astat     1444  0.0  0.7 507052 29296 ?        Ssl  11:42   0:02 /usr/lib/unity/unity-panel-service
+astat     1449  0.0  0.1 484916  7836 ?        Sl   11:42   0:00 /usr/lib/gvfs/gvfsd
+astat     1453  0.0  0.1 360432  6956 ?        Sl   11:42   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+astat     1456  0.0  0.1 297280  7952 ?        Sl   11:42   0:00 /usr/lib/ibus/ibus-dconf
+astat     1457  0.0  0.6 489864 25520 ?        Sl   11:42   0:02 /usr/lib/ibus/ibus-ui-gtk3
+astat     1459  0.0  0.3 398244 15388 ?        Sl   11:42   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+astat     1485  0.0  0.5 560924 23020 ?        Sl   11:42   0:01 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+astat     1491  0.0  0.1 124916  4836 ?        Sl   11:42   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+root      1534  0.0  0.1 239356  7352 ?        Sl   11:42   0:00 /usr/lib/upower/upowerd
+astat     1543  0.0  0.1 221424  7976 ?        Sl   11:42   0:03 /usr/lib/ibus/ibus-engine-simple
+astat     1555  0.0  0.5 532212 23800 ?        Sl   11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+astat     1556  0.0  0.1 366692  7632 ?        Ssl  11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+astat     1557  0.0  0.1 295244  7880 ?        Ssl  11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+astat     1559  0.0  0.1 297260  7968 ?        Ssl  11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+astat     1560  0.0  0.3 970248 15800 ?        Ssl  11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+astat     1562  0.0  0.3 497152 13396 ?        Ssl  11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+astat     1563  0.0  0.5 458188 21352 ?        Ssl  11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+astat     1564  0.0  0.2 645756  8228 ?        Ssl  11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+astat     1579  0.0  0.2 286756  8196 ?        Ssl  11:42   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+astat     1623  0.0  0.2 295732  8104 ?        S<l  11:42   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1625  0.0  0.0 168920  2496 ?        SNl  11:42   0:00 /usr/lib/rtkit/rtkit-daemon
+astat     1730  0.0  0.6 432712 28156 ?        Sl   11:42   0:00 /usr/lib/x86_64-linux-gnu/notify-osd
+astat     1735  0.0  0.4 715440 18304 ?        Sl   11:42   0:00 /usr/lib/evolution/evolution-source-registry
+astat     1736  9.5  7.6 1689432 311580 ?      Sl   11:42  34:20 compiz
+colord    1739  0.0  0.2 310972  9776 ?        Sl   11:42   0:00 /usr/lib/colord/colord
+astat     1743  0.0  0.1 178308  4768 ?        Sl   11:42   0:00 /usr/lib/dconf/dconf-service
+astat     1767  0.0  1.2 901224 51940 ?        Sl   11:42   0:00 /usr/lib/evolution/evolution-calendar-factory
+astat     1774  0.0  1.4 1400712 59808 ?       Sl   11:42   0:13 nautilus -n
+astat     1783  0.0  0.4 412528 17772 ?        Sl   11:42   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+astat     1807  0.0  0.7 602384 30320 ?        Sl   11:42   0:00 nm-applet
+astat     1811  0.0  0.4 343184 18836 ?        Sl   11:42   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+astat     1815  0.0  0.2 313156  9628 ?        Sl   11:42   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1826  0.0  0.2 386192  8988 ?        Sl   11:42   0:00 /usr/lib/udisks2/udisksd --no-debug
+astat     1837  0.0  0.1 213820  5692 ?        Sl   11:42   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+astat     1847  0.0  0.1 287376  6124 ?        Sl   11:42   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+astat     1853  0.0  0.1 201656  5308 ?        Sl   11:42   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+astat     1855  0.0  0.1  59692  6408 ?        S    11:42   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+root      1879  0.0  0.1  76860  6108 ?        Ss   11:42   0:00 /usr/sbin/cupsd -f
+astat     1889  0.0  0.1 271788  4700 ?        Sl   11:42   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+astat     1896  0.0  0.2 449596 10216 ?        Sl   11:42   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/1
+astat     1904  0.0  0.5 459080 22096 ?        Sl   11:42   0:00 telepathy-indicator
+astat     1912  0.0  0.3 336560 13888 ?        Sl   11:42   0:00 /usr/lib/telepathy/mission-control-5
+astat     1919  0.0  0.3 544636 12892 ?        Sl   11:42   0:00 zeitgeist-datahub
+astat     1924  0.0  0.2 363764  8956 ?        Sl   11:42   0:00 /usr/bin/zeitgeist-daemon
+astat     1930  0.0  0.3 256640 16024 ?        Sl   11:42   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+astat     1943  0.0  0.0  12636   712 ?        S    11:42   0:00 /bin/cat
+astat     2005  0.0  0.6 509392 25448 ?        Sl   11:43   0:00 update-notifier
+astat     2027  0.0  3.0 665336 123836 ?       SNl  11:43   0:04 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+astat     2058  0.0  0.2 460548  8568 ?        Sl   11:44   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+astat     2356  0.0  0.6 680892 26352 ?        Sl   12:01   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+astat     2370  0.0  0.3 644788 15104 ?        Sl   12:01   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+astat     2371  0.0  0.7 595856 30312 ?        Sl   12:01   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+astat     2407  0.0  0.3 351816 14388 ?        Sl   12:01   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-music/unity-music-daemon
+astat     2421  0.1  0.8 661628 33148 ?        Sl   12:01   0:20 gnome-terminal
+astat     2429  0.0  0.0  14828  1816 ?        S    12:01   0:00 gnome-pty-helper
+astat     2451  0.0  0.4 894684 16848 ?        Sl   12:01   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.8 /org/gtk/gvfs/exec_spaw/2
+astat     2563  0.0  0.1 125852  5648 ?        Sl   12:09   0:00 /usr/lib/gvfs/gvfsd-metadata
+astat     3348  0.0  0.1  28136  5448 pts/10   Ss+  12:47   0:00 bash
+astat     4805  0.0  3.3 877040 134364 ?       Sl   14:48   0:06 gedit /home/astat/zad3.sh
+astat     5029  0.0  0.1  28376  5776 pts/0    Ss   15:52   0:00 bash
+root      5375  0.0  0.1  10236  5264 ?        S    16:56   0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-5e1a42a0-3849-40bb-b621-191145874ac1-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+root      5476  0.0  0.0      0     0 ?        S    17:05   0:00 [kworker/u4:1]
+root      5535  0.0  0.0      0     0 ?        S    17:32   0:00 [kworker/u4:2]
+astat     5613  0.0  0.0  23868  2676 pts/0    R+   17:43   0:00 ps -aux
